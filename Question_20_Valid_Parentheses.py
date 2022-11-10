@@ -5,7 +5,7 @@ class Solution:
         n = 1
         if s == stack:
             return True
-        if len(stack) == 1:
+        if len(s) == 1:
             return False
 
         for elem in s:

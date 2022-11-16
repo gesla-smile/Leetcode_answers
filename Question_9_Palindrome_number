@@ -1,0 +1,19 @@
+# Solution 1
+class Solution:
+    def isPalindrome(self, x):
+        x = str(x)
+        if x[0] == '-':
+            x[1:]
+        if len(x) / 2 == int:
+            return False
+        else:
+            for i in range(len(x)//2-1):
+                if x[i+1] == x[-i]:
+                    return True
+                else:
+                    return False
+
+# Solution 2
+class Solution:
+    def isPalindrome(self, x):
+        return str(x) == str(x)[::-1]

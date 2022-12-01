@@ -10,6 +10,6 @@ class Solution:
             while prodct >= k and left <= right:
                 prodct /= nums[left]
                 left += 1
-            result = right - left + 1
+            result += right - left + 1
             right += right + 1
         return result

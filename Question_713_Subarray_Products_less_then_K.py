@@ -11,5 +11,5 @@ class Solution:
                 prodct /= nums[left]
                 left += 1
             result += right - left + 1
-            right += right + 1
+            right = right + 1
         return result
